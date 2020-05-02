@@ -1,0 +1,20 @@
+.search-filter-range {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.search-filter-range__slider {
+    width: 40%;
+}
+
+.search-filter-range__title {
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+    width: 50%;
+}
+
+.search-filter-range__value {
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+}

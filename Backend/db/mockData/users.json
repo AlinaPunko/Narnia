@@ -1,0 +1,9 @@
+[
+    {
+        "name": "admin",
+        "email": "admin@gmail.com",
+        "hashedPassword": "UQd37oPuBKuBH5m8lenSnaBDwFXUC1d5MgKHHdrzBs0=",
+        "salt": "b6af90ec6b7627ad09aa",
+        "role": "admin"
+    }
+]

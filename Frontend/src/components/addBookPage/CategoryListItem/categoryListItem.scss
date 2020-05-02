@@ -1,0 +1,21 @@
+.category-list-item__delete-button {
+    width: 10%;
+    background-color: transparent;
+    border: none;
+}
+
+.category-list-item__delete-button-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.category-list-item {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-family: "Lucida Sans", sans-serif;
+}

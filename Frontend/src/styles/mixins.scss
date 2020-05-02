@@ -1,0 +1,7 @@
+@mixin list-item-border {
+    border: 1px #8a8a8a solid;
+
+    &:not(:first-child) {
+        border-top: none;
+    }
+}

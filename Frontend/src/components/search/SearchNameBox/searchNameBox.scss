@@ -1,0 +1,22 @@
+.search-name-box {
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.search-name-box__field {
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.search-name-box__button {
+    background-color: transparent;
+    border: none;
+}
+
+.search-name-box__icon {
+    width: 20px;
+    height: 20px;
+}

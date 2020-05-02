@@ -1,0 +1,40 @@
+.favorite-list-item {
+    display: flex;
+    justify-content: space-between;
+    min-height: 0;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.favorite-list-item__title {
+    font-size: 26px;
+}
+
+.favorite-list-item__authors,
+.favorite-list-item__categories,
+.favorite-list-item__publishing-year,
+.favorite-list-item__pages {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.favorite-list-item__description {
+    width: 90%;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.favorite-list-item__remove-favorite-button,
+.favorite-list-item__open-details-page-button {
+    padding: 10px 10px 0 0;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+
+.favorite-list-item__image {
+    width: auto;
+    height: 150px;
+}

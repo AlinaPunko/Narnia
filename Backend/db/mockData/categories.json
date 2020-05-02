@@ -1,0 +1,41 @@
+[
+    {
+        "category": "Adventure"
+    },
+    {
+        "category": "Biography"
+    },
+    {
+        "category": "Classic"
+    },
+    {
+        "category": "Comic"
+    },
+    {
+        "category": "Detective"
+    },
+    {
+        "category": "Drama"
+    },
+    {
+        "category": "Fairy-tale"
+    },
+    {
+        "category": "Fantasy"
+    },
+    {
+        "category": "Horror"
+    },
+    {
+        "category": "Humor"
+    },
+    {
+        "category": "Poetry"
+    },
+    {
+        "category": "Romance"
+    },
+    {
+        "category": "Sci-fi"
+    }
+]

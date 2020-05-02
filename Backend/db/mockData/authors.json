@@ -1,0 +1,37 @@
+[
+    {
+        "name": "J.K. Rowling",
+        "country": "Great Britain",
+        "birthdate": "07.31.1965"
+    },
+    {
+        "name": "Stephen King",
+        "country": "USA",
+        "birthdate": "09.21.1947"
+    },
+    {
+        "name": "William Shakespeare",
+        "country": "Great Britain",
+        "birthdate": "04.26.1564"
+    },
+    {
+        "name": "Agatha Cristie",
+        "country": "Great Britain",
+        "birthdate": "09.15.1890"
+    },
+    {
+        "name": "Arthur Conan Doyle",
+        "country": "Great Britain",
+        "birthdate": "05.22.1859"
+    },
+    {
+        "name": "George R.R. Martin",
+        "country": "USA",
+        "birthdate": "09.20.1948"
+    },
+    {
+        "name": "George Orwell",
+        "country": "Great Britain",
+        "birthdate": "05.26.1903"
+    }
+]

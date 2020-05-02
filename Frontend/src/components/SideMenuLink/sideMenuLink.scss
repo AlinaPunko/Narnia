@@ -1,0 +1,25 @@
+.side-menu-link {
+    display: flex;
+    align-content: center;
+    margin: 10px 0;
+    color: #808080;
+    font-family: 'Lucida Sans', sans-serif;
+    fill: #808080;
+
+    :hover {
+        color: #106cc8;
+        fill: #106cc8;
+    }
+}
+
+.side-menu-link__text {
+    margin: auto 0 auto 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.side-menu-link__icon {
+    width: 25px;
+    height: 25px;
+}

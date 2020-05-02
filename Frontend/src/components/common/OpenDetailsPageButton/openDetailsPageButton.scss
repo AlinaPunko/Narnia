@@ -1,0 +1,10 @@
+.open-details-page-button {
+    padding: 20px 10px 10px 0;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+
+    :focus {
+        border: none;
+    }
+}

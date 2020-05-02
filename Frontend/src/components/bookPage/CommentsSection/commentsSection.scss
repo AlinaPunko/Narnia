@@ -1,0 +1,30 @@
+.comments-section {
+    width: 50%;
+    margin: 10px auto;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.comments-section__title {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.comments-section__comment {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+
+.comments-section__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments-section__button {
+    margin: 10px 0;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #106cc8;
+    border: 1px #106cc8 solid;
+}

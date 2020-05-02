@@ -1,0 +1,37 @@
+.add-category-block__header {
+    padding: 10px 0;
+    font-size: 25px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+}
+
+.add-category-block__field {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.add-category-block__field-title {
+    padding: 0 5px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.add-category-block__field-input {
+    padding: 5px;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.add-category-block__add-button {
+    width: 7%;
+    background-color: transparent;
+    border: none;
+}
+
+.add-category-block__add-button-icon {
+    width: 15px;
+    height: 15px;
+}

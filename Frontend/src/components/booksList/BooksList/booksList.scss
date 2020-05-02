@@ -1,0 +1,15 @@
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 20px auto 0 auto;
+}
+
+.books-list__preloader-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.books-list__preloader {
+    height: 50px;
+}

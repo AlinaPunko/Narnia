@@ -1,0 +1,18 @@
+.photo-selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.photo-selector__title {
+    padding: 0 5px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.photo-selector__input {
+    padding: 5px;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}

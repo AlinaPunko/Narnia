@@ -1,0 +1,16 @@
+.tooltip {
+    display: flex;
+}
+
+.tooltip__icon {
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+}
+
+.tooltip__text {
+    display: inline;
+    margin: auto 0;
+    font-family: 'Lucida Sans', sans-serif;
+    border-bottom: 1px #8a8a8a solid;
+}

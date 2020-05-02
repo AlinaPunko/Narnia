@@ -1,0 +1,30 @@
+.authors-list-item {
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Lucida Sans', sans-serif;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.authors-list-item__name {
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.authors-list-item__country,
+.authors-list-item__birthdate {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.authors-list-item__button {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.authors-list-item__button-icon {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,48 @@
+.sign-up-page {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px #8a8a8a solid;
+    border-radius: 10px;
+}
+
+.sign-up-page__title {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+}
+
+.sign-up-page__field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.sign-up-page__field-title {
+    padding: 0 5px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.sign-up-page__field-input {
+    padding: 5px;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.sign-up-page__form-button {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 0;
+    color: #ffffff;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #106cc8;
+    border-color: #106cc8;
+    border-radius: 5px;
+}
+
+.sign-up-page__validation-result {
+    color: #ff0000;
+    font-family: "Lucida Sans", sans-serif;
+}

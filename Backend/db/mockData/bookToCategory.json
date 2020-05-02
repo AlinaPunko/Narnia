@@ -1,0 +1,166 @@
+[
+    {
+        "bookId": 1,
+        "categoryId": 1
+    },
+    {
+        "bookId": 1,
+        "categoryId": 7
+    },
+    {
+        "bookId": 1,
+        "categoryId": 8
+    },
+    {
+        "bookId": 2,
+        "categoryId": 1
+    },
+    {
+        "bookId": 2,
+        "categoryId": 7
+    },
+    {
+        "bookId": 2,
+        "categoryId": 8
+    },
+    {
+        "bookId": 3,
+        "categoryId": 1
+    },
+    {
+        "bookId": 3,
+        "categoryId": 7
+    },
+    {
+        "bookId": 3,
+        "categoryId": 8
+    },
+    {
+        "bookId": 4,
+        "categoryId": 1
+    },
+    {
+        "bookId": 4,
+        "categoryId": 7
+    },
+    {
+        "bookId": 4,
+        "categoryId": 8
+    },
+    {
+        "bookId": 5,
+        "categoryId": 1
+    },
+    {
+        "bookId": 5,
+        "categoryId": 7
+    },
+    {
+        "bookId": 5,
+        "categoryId": 8
+    },
+    {
+        "bookId": 6,
+        "categoryId": 1
+    },
+    {
+        "bookId": 6,
+        "categoryId": 7
+    },
+    {
+        "bookId": 6,
+        "categoryId": 8
+    },
+    {
+        "bookId": 7,
+        "categoryId": 1
+    },
+    {
+        "bookId": 7,
+        "categoryId": 7
+    },
+    {
+        "bookId": 7,
+        "categoryId": 8
+    },
+    {
+        "bookId": 8,
+        "categoryId": 9
+    },
+    {
+        "bookId": 9,
+        "categoryId": 9
+    },
+    {
+        "bookId": 10,
+        "categoryId": 3
+    },
+    {
+        "bookId": 10,
+        "categoryId": 6
+    },
+    {
+        "bookId": 10,
+        "categoryId": 12
+    },
+    {
+        "bookId": 11,
+        "categoryId": 3
+    },
+    {
+        "bookId": 11,
+        "categoryId": 6
+    },
+    {
+        "bookId": 11,
+        "categoryId": 12
+    },
+    {
+        "bookId": 12,
+        "categoryId": 5
+    },
+    {
+        "bookId": 13,
+        "categoryId": 5
+    },
+    {
+        "bookId": 14,
+        "categoryId": 5
+    },
+    {
+        "bookId": 15,
+        "categoryId": 5
+    },
+    {
+        "bookId": 15,
+        "categoryId": 1
+    },
+    {
+        "bookId": 16,
+        "categoryId": 1
+    },
+    {
+        "bookId": 16,
+        "categoryId": 6
+    },
+    {
+        "bookId": 16,
+        "categoryId": 8
+    },
+    {
+        "bookId": 17,
+        "categoryId": 6
+    },
+    {
+        "bookId": 17,
+        "categoryId": 13
+    },
+    {
+        "bookId": 18,
+        "categoryId": 6
+    },
+    {
+        "bookId": 18,
+        "categoryId": 13
+    }
+]

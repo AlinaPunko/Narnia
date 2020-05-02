@@ -1,0 +1,53 @@
+.book-details-page {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    min-height: 0;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.book-details-page__title {
+    font-size: 26px;
+}
+
+.book-details-page__authors,
+.book-details-page__categories {
+    padding: 5px 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.book-details-page__price,
+.book-details-page__pages,
+.book-details-page__publishing-year {
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.book-details-page__description {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.book-details-page__button {
+    margin: 5px;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #106cc8;
+    border: none;
+}
+
+.book-details-page__image {
+    width: auto;
+    height: 250px;
+    padding: 0 10px;
+}
+
+.book-details-page__icon {
+    width: 15px;
+    height: 15px;
+    fill: #000000;
+}

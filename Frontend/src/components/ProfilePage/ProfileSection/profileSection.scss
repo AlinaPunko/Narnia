@@ -1,0 +1,79 @@
+.profile-section {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.profile-section__form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.profile-section__title {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+}
+
+.profile-section__image-block {
+    align-self: flex-start;
+    width: 50%;
+    padding: 10px;
+}
+
+.profile-section__user-image {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.profile-section__add-image-button,
+.profile-section__delete-image-button {
+    width: 30%;
+    margin: 0 10px;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: transparent;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.profile-section__user-info {
+    width: 50%;
+}
+
+.profile-section__field {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.profile-section__field-title {
+    padding: 0 5px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.profile-section__field-input {
+    width: 50%;
+    padding: 5px;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.profile-section__save-button,
+.profile-section__close-button {
+    width: 40%;
+    margin: 20px;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: transparent;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.profile-section__validation-result {
+    color: #ff0000;
+    font-family: "Lucida Sans", sans-serif;
+}

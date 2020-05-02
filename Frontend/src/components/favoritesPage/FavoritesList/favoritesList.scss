@@ -1,0 +1,27 @@
+.favorite-list {
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.favorite-list__title {
+    margin: 20px auto;
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+}
+
+.paging-panel {
+    display: flex;
+    width: fit-content;
+    margin: 10px auto 20px 20px;
+    color: #106cc8;
+    border: 1px #106cc8 solid;
+    border-radius: 5px;
+}
+
+.paging-panel__item {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px #106cc8 solid;
+}

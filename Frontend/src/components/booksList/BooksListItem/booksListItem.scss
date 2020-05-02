@@ -1,0 +1,60 @@
+.books-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    min-height: 0;
+    margin: 5px auto;
+    padding: 5px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.books-list-item__image {
+    width: auto;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.books-list-item__title {
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.books-list-item__authors,
+.books-list-item__categories {
+    display: block;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.books-list-item__price {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.books-list-item__information {
+    position: relative;
+    height: 53%;
+    padding: 10px;
+    background-color: #808080;
+}
+
+.books-list-item__open-details-page-button,
+.books-list-item__favorite-button {
+    color: #ffffff;
+}
+
+.books-list-item__button {
+    display: inline;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.books-list-item__button-icon {
+    width: 15px;
+    height: 15px;
+    fill: #ffffff;
+}

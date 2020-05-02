@@ -1,0 +1,55 @@
+.add-book-page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px #8a8a8a solid;
+    border-radius: 10px;
+}
+
+.add-book-page__title {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+}
+
+.add-book-page__form {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-book-page__image-block {
+    align-self: flex-start;
+    width: 50%;
+    padding: 10px;
+}
+
+.add-book-page__book-image {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.add-book-page__author-categories {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-book-page__form-button {
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px 0;
+    color: #ffffff;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #106cc8;
+    border-color: #106cc8;
+    border-radius: 5px;
+}
+
+.add-book-page__validation-result {
+    color: #ff0000;
+    font-family: "Lucida Sans", sans-serif;
+}
