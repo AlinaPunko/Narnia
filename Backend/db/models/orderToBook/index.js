@@ -11,6 +11,9 @@ module.exports = (Sequelize, sequelize) => {
         },
         orderId: {
             type: Sequelize.INTEGER
+        },
+        amount: {
+            type: Sequelize.INTEGER
         }
     });
 };

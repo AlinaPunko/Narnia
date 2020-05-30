@@ -11,6 +11,10 @@ export default {
         fieldName: 'Phone',
         rule: 'required'
     },
+    address: {
+        fieldName: 'Address',
+        rule: 'required'
+    },
     password: {
         fieldName: 'Password',
         rule: 'required|min:6'

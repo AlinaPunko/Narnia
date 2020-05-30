@@ -37,7 +37,6 @@ booksRoute.get('/', async (request, response) => {
         bookViewModel.categories = theCategories;
         booksViewModel.push(bookViewModel);
     }
-
     response.json(booksViewModel);
 });
 
@@ -145,7 +144,6 @@ booksRoute.put('/Update', middleware.checkToken, express.json({ type: '*/*' }), 
 
         const result = bookRepository.update(bookInfo);
         if (result) {
-            console.log(result);
             response.statusCode = 400;
             response.setHeader('content-type', 'application/json');
             response.json({ message: 'Incorrect book data' });

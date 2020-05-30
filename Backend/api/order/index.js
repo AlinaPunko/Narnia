@@ -9,7 +9,7 @@ module.exports = {
             });
     },
     add: (order) => {
-        db.create(order)
+        return db.create(order)
             .catch(err => {
                 console.log(err.toString());
             });

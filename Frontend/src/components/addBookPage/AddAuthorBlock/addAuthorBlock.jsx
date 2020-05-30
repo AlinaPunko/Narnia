@@ -49,12 +49,12 @@ export default class AddAuthorBlock extends React.Component {
     }
 
     deleteAuthor = async (author) => {
-        this.props.deleteAuthor(author);
+        this.props.authors.splice(this.props.authors.indexOf(author), 1);
     }
 
     render() {
         return (
-            <section>
+            <section className="add-author-block">
                 <h2 className="add-author-block__header">Book's authors</h2>
                 <div className="add-author-block__field">
                     <label className="add-author-block__field-title">Choose Author</label>

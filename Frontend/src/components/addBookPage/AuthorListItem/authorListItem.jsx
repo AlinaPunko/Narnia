@@ -14,7 +14,7 @@ export default class AuthorListItem extends React.Component {
 
 
     deleteAuthor = () => {
-        this.props.deleteAuthor(item);
+        this.props.deleteAuthor(this.props.author);
     }
 
     render() {

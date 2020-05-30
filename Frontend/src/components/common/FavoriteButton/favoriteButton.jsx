@@ -25,7 +25,6 @@ export default class FavoriteButton extends React.PureComponent {
     }
 
     toggleFavoriteState = () => {
-        debugger
         this.state.isFavorite
             ? favoritesServices.deleteItem(this.context.userId, this.props.book)
             : favoritesServices.add(this.context.userId, this.props.book);

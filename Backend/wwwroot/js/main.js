@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "54a65409e04301747eb2";
+/******/ 	var hotCurrentHash = "3602d2a3ac1b9a30a72c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1083,7 +1083,7 @@ exports.push([module.i, ".sign-in-page {\n  width: 15%;\n  margin: 0 auto;\n  pa
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".sign-up-page {\n  width: 30%;\n  margin: 0 auto;\n  padding: 20px;\n  border: 1px #8a8a8a solid;\n  border-radius: 10px; }\n\n.sign-up-page__title {\n  padding: 10px 0;\n  font-size: 30px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.sign-up-page__field {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.sign-up-page__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.sign-up-page__field-input {\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.sign-up-page__form-button {\n  width: 100%;\n  margin: 10px auto;\n  padding: 5px 0;\n  color: #ffffff;\n  font-family: \"Lucida Sans\", sans-serif;\n  background-color: #106cc8;\n  border-color: #106cc8;\n  border-radius: 5px; }\n\n.sign-up-page__validation-result {\n  color: #ff0000;\n  font-family: \"Lucida Sans\", sans-serif; }\n", ""]);
+exports.push([module.i, ".sign-up-page {\n  width: 30%;\n  margin: 0 auto;\n  padding: 20px;\n  border: 1px #8a8a8a solid;\n  border-radius: 10px; }\n\n.sign-up-page__title {\n  padding: 10px 0;\n  font-size: 30px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.sign-up-page__field {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.sign-up-page__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.sign-up-page__field-input {\n  width: 50%;\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.sign-up-page__form-button {\n  width: 100%;\n  margin: 10px auto;\n  padding: 5px 0;\n  color: #ffffff;\n  font-family: \"Lucida Sans\", sans-serif;\n  background-color: #106cc8;\n  border-color: #106cc8;\n  border-radius: 5px; }\n\n.sign-up-page__validation-result {\n  color: #ff0000;\n  font-family: \"Lucida Sans\", sans-serif; }\n", ""]);
 
 
 
@@ -1098,7 +1098,7 @@ exports.push([module.i, ".sign-up-page {\n  width: 30%;\n  margin: 0 auto;\n  pa
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".add-author-block__header {\n  padding: 10px 0;\n  font-size: 25px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.add-author-block__field {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.add-author-block__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.add-author-block__field-input {\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.add-author-block__add-button {\n  width: 7%;\n  background-color: transparent;\n  border: none; }\n\n.add-author-block__add-button-icon {\n  width: 15px;\n  height: 15px; }\n", ""]);
+exports.push([module.i, ".add-author-block {\n  width: 45%; }\n\n.add-author-block__header {\n  padding: 10px 0;\n  font-size: 25px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.add-author-block__field {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.add-author-block__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.add-author-block__field-input {\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.add-author-block__add-button {\n  width: 7%;\n  background-color: transparent;\n  border: none; }\n\n.add-author-block__add-button-icon {\n  width: 15px;\n  height: 15px; }\n", ""]);
 
 
 
@@ -1128,7 +1128,7 @@ exports.push([module.i, ".add-book-page {\n  width: 60%;\n  margin: 0 auto;\n  p
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".add-category-block__header {\n  padding: 10px 0;\n  font-size: 25px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.add-category-block__field {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.add-category-block__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.add-category-block__field-input {\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.add-category-block__add-button {\n  width: 7%;\n  background-color: transparent;\n  border: none; }\n\n.add-category-block__add-button-icon {\n  width: 15px;\n  height: 15px; }\n", ""]);
+exports.push([module.i, ".add-category-block {\n  width: 45%; }\n\n.add-category-block__header {\n  padding: 10px 0;\n  font-size: 25px;\n  font-family: \"Lucida Sans\", sans-serif;\n  text-align: center; }\n\n.add-category-block__field {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 5px 0; }\n\n.add-category-block__field-title {\n  padding: 0 5px;\n  font-family: \"Lucida Sans\", sans-serif; }\n\n.add-category-block__field-input {\n  padding: 5px;\n  border: 1px #106cc8 solid;\n  border-radius: 5px; }\n\n.add-category-block__add-button {\n  width: 7%;\n  background-color: transparent;\n  border: none; }\n\n.add-category-block__add-button-icon {\n  width: 15px;\n  height: 15px; }\n", ""]);
 
 
 
@@ -1398,7 +1398,7 @@ exports.push([module.i, ".favorite-list {\n  flex-wrap: wrap;\n  width: 50%;\n  
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".books-section {\n  margin: 0 auto; }\n\n.books-section-list-item {\n  display: flex;\n  justify-content: space-between;\n  min-height: 0;\n  margin: 20px;\n  padding: 10px;\n  font-family: 'Lucida Sans', sans-serif;\n  box-shadow: 0 0 10px 5px #dddddd; }\n\n.books-section-list-item__title {\n  font-size: 26px; }\n\n.books-section-list-item__authors,\n.books-section-list-item__categories,\n.books-section-list-item__publishing-year,\n.books-section-list-item__pages,\n.books-section-list-item__amount {\n  padding: 5px 0;\n  font-size: 16px; }\n\n.books-section-list-item__description {\n  width: 90%;\n  padding: 20px 0;\n  font-size: 14px; }\n\n.books-section-list-item__image {\n  width: auto;\n  height: 150px; }\n\n.books-section__total-price {\n  font-size: 24px;\n  font-family: 'Lucida Sans', sans-serif; }\n\n.books-section__save-button {\n  width: 30%;\n  margin: 10px auto;\n  padding: 5px;\n  color: #ffffff;\n  font-size: 20px;\n  font-family: 'Lucida Sans', sans-serif;\n  background-color: #106cc8;\n  border: none; }\n", ""]);
 
 
 
@@ -56221,6 +56221,8 @@ var AccountMenu = /*#__PURE__*/function (_React$PureComponent) {
     _defineProperty(_assertThisInitialized(_this), "signOutClick", function () {
       _this.context.setUserId('');
 
+      _this.context.setRole('');
+
       helpers_localStorageHelper__WEBPACK_IMPORTED_MODULE_7__["default"].deleteToken();
       helpers_serviceWrapper__WEBPACK_IMPORTED_MODULE_5__["default"].callService(services_userService__WEBPACK_IMPORTED_MODULE_6__["default"].signOut, null, null);
     });
@@ -57070,7 +57072,7 @@ var ProfileSection = /*#__PURE__*/function (_React$PureComponent) {
 
     _defineProperty(_assertThisInitialized(_this), "onBirthdateChange", function (e) {
       _this.setState({
-        birthdate: e.target.value.slice(1, 10)
+        birthdate: e.target.value.slice(0, 10)
       });
     });
 
@@ -57162,7 +57164,7 @@ var ProfileSection = /*#__PURE__*/function (_React$PureComponent) {
     });
 
     _defineProperty(_assertThisInitialized(_this), "getValidationResult", function () {
-      var messages = [_this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].email.fieldName, _this.state.email, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].email.rule), _this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].name.fieldName, _this.state.name, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].name.rule)];
+      var messages = [_this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].email.fieldName, _this.state.email, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].email.rule), _this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].name.fieldName, _this.state.name, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].name.rule), _this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].phone.fieldName, _this.state.phone, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].phone.rule), _this.validator.message(validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].address.fieldName, _this.state.address, validationConfigs_profileValidationConfig__WEBPACK_IMPORTED_MODULE_4__["default"].address.rule)];
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile-section__validation-result",
         ref: _this.errorFieldRef
@@ -57269,7 +57271,7 @@ var ProfileSection = /*#__PURE__*/function (_React$PureComponent) {
         type: "email",
         value: this.state.email,
         className: "profile-section__field-input",
-        onChange: this.onEmailChange
+        disabled: true
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "profile-section__field"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -57297,6 +57299,7 @@ var ProfileSection = /*#__PURE__*/function (_React$PureComponent) {
       }, "Phone"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         name: "phone",
         type: "tel",
+        pattern: "375[0-9]{2}[0-9]{7}",
         value: this.state.phone,
         className: "profile-section__field-input",
         onChange: this.onPhoneChange
@@ -58252,7 +58255,7 @@ var SignUpPage = /*#__PURE__*/function (_React$PureComponent) {
     }());
 
     _defineProperty(_assertThisInitialized(_this), "renderValidationResult", function () {
-      var messages = [_this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].email.fieldName, _this.state.email, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].email.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].password.fieldName, _this.state.password, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].password.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].name.fieldName, _this.state.name, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].name.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].phone.fieldName, _this.state.phone, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].phone.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].confirmedPassword.fieldName, _this.state.confirmedPassword, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].confirmedPassword.rule(_this.state.password))];
+      var messages = [_this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].email.fieldName, _this.state.email, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].email.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].password.fieldName, _this.state.password, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].password.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].name.fieldName, _this.state.name, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].name.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].phone.fieldName, _this.state.phone, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].phone.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].address.fieldName, _this.state.address, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].address.rule), _this.validator.message(validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].confirmedPassword.fieldName, _this.state.confirmedPassword, validationConfigs_signUpValidationConfig__WEBPACK_IMPORTED_MODULE_6__["default"].confirmedPassword.rule(_this.state.password))];
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "sign-up-page__validation-result",
         ref: _this.errorFieldRef
@@ -58548,7 +58551,7 @@ var AddAuthorBlock = /*#__PURE__*/function (_React$Component) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
-                _this.props.deleteAuthor(author);
+                _this.props.authors.splice(_this.props.authors.indexOf(author), 1);
 
               case 1:
               case "end":
@@ -58572,7 +58575,9 @@ var AddAuthorBlock = /*#__PURE__*/function (_React$Component) {
   _createClass(AddAuthorBlock, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "add-author-block"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "add-author-block__header"
       }, "Book's authors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "add-author-block__field"
@@ -58688,12 +58693,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var services_authorService__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! services/authorService */ "./src/services/authorService.js");
 /* harmony import */ var services_categoryService__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! services/categoryService */ "./src/services/categoryService.js");
 /* harmony import */ var helpers_serviceWrapper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! helpers/serviceWrapper */ "./src/helpers/serviceWrapper.js");
-/* harmony import */ var components_addBookPage_AddAuthorBlock_addAuthorBlock__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! components/addBookPage/AddAuthorBlock/addAuthorBlock */ "./src/components/addBookPage/AddAuthorBlock/addAuthorBlock.jsx");
-/* harmony import */ var components_addBookPage_AddCategoryBlock_addCategoryBlock__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! components/addBookPage/AddCategoryBlock/addCategoryBlock */ "./src/components/addBookPage/AddCategoryBlock/addCategoryBlock.jsx");
-/* harmony import */ var components_common_PhotoSelector_photoSelector__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! components/common/PhotoSelector/photoSelector */ "./src/components/common/PhotoSelector/photoSelector.jsx");
-/* harmony import */ var validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! validationConfigs/bookValidationConfig */ "./src/validationConfigs/bookValidationConfig.js");
-/* harmony import */ var _addBookPage_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./addBookPage.scss */ "./src/components/addBookPage/AddBookPage/addBookPage.scss");
-/* harmony import */ var _addBookPage_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_addBookPage_scss__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var helpers_redirectHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! helpers/redirectHelper */ "./src/helpers/redirectHelper.js");
+/* harmony import */ var components_addBookPage_AddAuthorBlock_addAuthorBlock__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! components/addBookPage/AddAuthorBlock/addAuthorBlock */ "./src/components/addBookPage/AddAuthorBlock/addAuthorBlock.jsx");
+/* harmony import */ var components_addBookPage_AddCategoryBlock_addCategoryBlock__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! components/addBookPage/AddCategoryBlock/addCategoryBlock */ "./src/components/addBookPage/AddCategoryBlock/addCategoryBlock.jsx");
+/* harmony import */ var components_common_PhotoSelector_photoSelector__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! components/common/PhotoSelector/photoSelector */ "./src/components/common/PhotoSelector/photoSelector.jsx");
+/* harmony import */ var validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! validationConfigs/bookValidationConfig */ "./src/validationConfigs/bookValidationConfig.js");
+/* harmony import */ var _addBookPage_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./addBookPage.scss */ "./src/components/addBookPage/AddBookPage/addBookPage.scss");
+/* harmony import */ var _addBookPage_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_addBookPage_scss__WEBPACK_IMPORTED_MODULE_14__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -58721,6 +58727,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -58955,10 +58962,7 @@ var AddBookPage = /*#__PURE__*/function (_React$Component) {
                 result = _context4.sent;
 
               case 12:
-                if (result) {
-                  redirectHelper.redirectToHomePage(_this.props.history);
-                }
-
+                helpers_redirectHelper__WEBPACK_IMPORTED_MODULE_9__["default"].redirectToHomePage(_this.props.history);
                 _context4.next = 17;
                 break;
 
@@ -58981,7 +58985,7 @@ var AddBookPage = /*#__PURE__*/function (_React$Component) {
     }());
 
     _defineProperty(_assertThisInitialized(_this), "renderValidationResult", function () {
-      var messages = [_this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].title.fieldName, _this.state.title, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].title.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].price.fieldName, _this.state.price, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].price.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].image.fieldName, _this.state.image, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].image.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].publishYear.fieldName, _this.state.publishYear, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].publishYear.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].description.fieldName, _this.state.description, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].description.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].pages.fieldName, _this.state.pages, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_12__["default"].pages.rule)];
+      var messages = [_this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].title.fieldName, _this.state.title, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].title.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].price.fieldName, _this.state.price, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].price.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].image.fieldName, _this.state.image, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].image.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].publishYear.fieldName, _this.state.publishYear, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].publishYear.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].description.fieldName, _this.state.description, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].description.rule), _this.validator.message(validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].pages.fieldName, _this.state.pages, validationConfigs_bookValidationConfig__WEBPACK_IMPORTED_MODULE_13__["default"].pages.rule)];
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "add-book-page__validation-result",
         ref: _this.errorFieldRef
@@ -59028,7 +59032,7 @@ var AddBookPage = /*#__PURE__*/function (_React$Component) {
         className: "add-book-page__book-image",
         alt: "book",
         src: this.state.image
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_common_PhotoSelector_photoSelector__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_common_PhotoSelector_photoSelector__WEBPACK_IMPORTED_MODULE_12__["default"], {
         onChange: this.changeImage
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "add-book-page__form-button",
@@ -59066,12 +59070,12 @@ var AddBookPage = /*#__PURE__*/function (_React$Component) {
         value: this.state.publishYear
       }), this.renderValidationResult()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "add-book-page__author-categories"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_addBookPage_AddCategoryBlock_addCategoryBlock__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_addBookPage_AddCategoryBlock_addCategoryBlock__WEBPACK_IMPORTED_MODULE_11__["default"], {
         categories: this.state.categories,
         allCategories: this.state.allCategories,
         addCategory: this.addCategory,
         deleteCategory: this.deleteCategory
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_addBookPage_AddAuthorBlock_addAuthorBlock__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_addBookPage_AddAuthorBlock_addAuthorBlock__WEBPACK_IMPORTED_MODULE_10__["default"], {
         authors: this.state.authors,
         allAuthors: this.state.allAuthors,
         addAuthor: this.addAuthor,
@@ -59298,7 +59302,7 @@ var AddCategoryBlock = /*#__PURE__*/function (_React$Component) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
-                _this.props.deleteCategory(category);
+                _this.props.categories.splice(_this.props.categories.indexOf(category), 1);
 
               case 1:
               case "end":
@@ -59322,7 +59326,9 @@ var AddCategoryBlock = /*#__PURE__*/function (_React$Component) {
   _createClass(AddCategoryBlock, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "add-category-block"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "add-category-block__header"
       }, "Book's categories"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "add-category-block__field"
@@ -59476,7 +59482,7 @@ var AuthorListItem = /*#__PURE__*/function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(AuthorListItem)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_this), "deleteAuthor", function () {
-      _this.props.deleteAuthor(item);
+      _this.props.deleteAuthor(_this.props.author);
     });
 
     return _this;
@@ -59626,7 +59632,7 @@ var CategoryListItem = /*#__PURE__*/function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(CategoryListItem)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_this), "deleteCategory", function () {
-      _this.props.deleteCategory(item);
+      _this.props.deleteCategory(_this.props.category);
     });
 
     return _this;
@@ -60367,6 +60373,7 @@ var CommentsListItem = /*#__PURE__*/function (_React$PureComponent) {
       var _this$props = this.props,
           comment = _this$props.comment,
           key = _this$props.key;
+      debugger;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         key: key,
         className: "comments-list-item"
@@ -60530,14 +60537,11 @@ var CommentsSection = /*#__PURE__*/function (_React$PureComponent) {
             userName: data.userName,
             text: data.text
           };
-          debugger;
 
           _this.setState({
             getNewComments: true,
             newComment: comment
           });
-
-          debugger;
         }
       });
 
@@ -60550,8 +60554,6 @@ var CommentsSection = /*#__PURE__*/function (_React$PureComponent) {
         newComment: null,
         getNewComments: false
       });
-
-      debugger;
 
       _this.renderComments();
     });
@@ -61352,7 +61354,6 @@ var FavoriteButton = /*#__PURE__*/function (_React$PureComponent) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(FavoriteButton).call(this, props, context));
 
     _defineProperty(_assertThisInitialized(_this), "toggleFavoriteState", function () {
-      debugger;
       _this.state.isFavorite ? services_favoritesService__WEBPACK_IMPORTED_MODULE_4__["default"].deleteItem(_this.context.userId, _this.props.book) : services_favoritesService__WEBPACK_IMPORTED_MODULE_4__["default"].add(_this.context.userId, _this.props.book);
 
       _this.setState({
@@ -62842,9 +62843,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BooksSection; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _booksSection_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./booksSection.scss */ "./src/components/orderPage/BooksSection/booksSection.scss");
-/* harmony import */ var _booksSection_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_booksSection_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var store_context_userContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! store/context/userContext */ "./src/store/context/userContext.js");
+/* harmony import */ var helpers_redirectHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! helpers/redirectHelper */ "./src/helpers/redirectHelper.js");
+/* harmony import */ var helpers_localStorageHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! helpers/localStorageHelper */ "./src/helpers/localStorageHelper.js");
+/* harmony import */ var services_bookService__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! services/bookService */ "./src/services/bookService.js");
+/* harmony import */ var services_orderService__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! services/orderService */ "./src/services/orderService.js");
+/* harmony import */ var _booksSection_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./booksSection.scss */ "./src/components/orderPage/BooksSection/booksSection.scss");
+/* harmony import */ var _booksSection_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_booksSection_scss__WEBPACK_IMPORTED_MODULE_7__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -62854,13 +62866,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+
 
 
 
@@ -62868,10 +62888,171 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 var BooksSection = /*#__PURE__*/function (_React$Component) {
   _inherits(BooksSection, _React$Component);
 
-  function BooksSection() {
+  function BooksSection(props) {
+    var _this;
+
     _classCallCheck(this, BooksSection);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(BooksSection).apply(this, arguments));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(BooksSection).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_this), "componentDidMount", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+      var _localStorageHelper$g, books, result, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, element, bookInfo;
+
+      return regeneratorRuntime.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _localStorageHelper$g = helpers_localStorageHelper__WEBPACK_IMPORTED_MODULE_4__["default"].getUserItems(_this.context.userId), books = _localStorageHelper$g.books;
+              result = [];
+              _iteratorNormalCompletion = true;
+              _didIteratorError = false;
+              _iteratorError = undefined;
+              _context.prev = 5;
+              _iterator = books[Symbol.iterator]();
+
+            case 7:
+              if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
+                _context.next = 18;
+                break;
+              }
+
+              element = _step.value;
+              _context.next = 11;
+              return services_bookService__WEBPACK_IMPORTED_MODULE_5__["default"].getById(element.bookId);
+
+            case 11:
+              bookInfo = _context.sent;
+              bookInfo.amount = element.amount;
+
+              _this.setState({
+                totalPrice: _this.state.totalPrice + bookInfo.price * bookInfo.amount
+              });
+
+              result.push(bookInfo);
+
+            case 15:
+              _iteratorNormalCompletion = true;
+              _context.next = 7;
+              break;
+
+            case 18:
+              _context.next = 24;
+              break;
+
+            case 20:
+              _context.prev = 20;
+              _context.t0 = _context["catch"](5);
+              _didIteratorError = true;
+              _iteratorError = _context.t0;
+
+            case 24:
+              _context.prev = 24;
+              _context.prev = 25;
+
+              if (!_iteratorNormalCompletion && _iterator.return != null) {
+                _iterator.return();
+              }
+
+            case 27:
+              _context.prev = 27;
+
+              if (!_didIteratorError) {
+                _context.next = 30;
+                break;
+              }
+
+              throw _iteratorError;
+
+            case 30:
+              return _context.finish(27);
+
+            case 31:
+              return _context.finish(24);
+
+            case 32:
+              _this.setState({
+                books: result
+              });
+
+            case 33:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, null, [[5, 20, 24, 32], [25,, 27, 31]]);
+    })));
+
+    _defineProperty(_assertThisInitialized(_this), "renderBooks", function () {
+      var components = [];
+      var books = _this.state.books;
+      books.forEach(function (element) {
+        var authors = [];
+        element.authors.forEach(function (author) {
+          authors.push(author);
+        });
+        var categories = [];
+        element.categories.forEach(function (category) {
+          categories.push(category);
+        });
+        components.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__title"
+        }, element.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__authors"
+        }, authors.join(', ')), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__categories"
+        }, categories.join(', ')), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__pages"
+        }, "Pages: ", element.pagesNumber), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__publishing-year"
+        }, "Publishing year: ", element.publishYear), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__price"
+        }, "Price: ", element.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "books-section-list-item__amount"
+        }, "Amount: ", element.amount)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          alt: "Item_image",
+          className: "books-section-list-item__image",
+          src: element.image
+        })));
+      });
+      return components;
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "saveOrder", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+      var order, result;
+      return regeneratorRuntime.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              order = _this.state;
+              order.userId = _this.context.userId;
+              _context2.next = 4;
+              return services_orderService__WEBPACK_IMPORTED_MODULE_6__["default"].add(order);
+
+            case 4:
+              result = _context2.sent;
+
+              if (result) {
+                alert('We received your order, the manager will call you as soon as possible');
+                helpers_localStorageHelper__WEBPACK_IMPORTED_MODULE_4__["default"].deleteUsersCart(_this.context.userId);
+
+                _this.props.history.push('/');
+              }
+
+            case 6:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    })));
+
+    _this.state = {
+      books: [],
+      totalPrice: 0
+    };
+    return _this;
   }
 
   _createClass(BooksSection, [{
@@ -62879,12 +63060,34 @@ var BooksSection = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "books-section"
-      });
+      }, this.renderBooks(), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "books-section__total-price"
+      }, "Total price: ", this.state.totalPrice), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "books-section__save-button",
+        type: "button",
+        onClick: this.saveOrder
+      }, "Pay for order"));
     }
   }]);
 
   return BooksSection;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+_defineProperty(BooksSection, "propTypes", {
+  history: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    length: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired,
+    action: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+    location: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+      pathname: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+      search: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+      hash: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+      key: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+    }),
+    push: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired
+  }).isRequired
+});
+
+_defineProperty(BooksSection, "contextType", store_context_userContext__WEBPACK_IMPORTED_MODULE_2__["UserContext"]);
 
 
 
@@ -63012,7 +63215,9 @@ var OrderPage = /*#__PURE__*/function (_React$Component) {
         className: "order-page"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "order-page__title"
-      }, "Order info"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_orderPage_UserInfoSection_userInfoSection__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_orderPage_BooksSection_booksSection__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+      }, "Order info"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_orderPage_UserInfoSection_userInfoSection__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_orderPage_BooksSection_booksSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        history: this.props.history
+      }));
     }
   }]);
 
@@ -64534,7 +64739,7 @@ __webpack_require__.r(__webpack_exports__);
 var filterType = {
   pages: 'pages',
   price: 'price',
-  publishingYear: 'publishYear'
+  publishingYear: 'publishingYear'
 };
 /* harmony default export */ __webpack_exports__["default"] = (filterType);
 
@@ -64677,6 +64882,9 @@ __webpack_require__.r(__webpack_exports__);
     signIn: '/Users/Login',
     signUp: '/Users/Register',
     signOut: '/Users/Logout'
+  },
+  orderUrls: {
+    add: '/Orders/Add'
   }
 });
 
@@ -64692,10 +64900,10 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var sliderValue = {
-  minPages: 2,
-  maxPages: 2000,
+  minPages: 0,
+  maxPages: 1000,
   minPrice: 0,
-  maxPrice: 3000,
+  maxPrice: 100,
   minPublishingYear: 0,
   maxPublishingYear: 2020
 };
@@ -64833,6 +65041,24 @@ function getItems() {
   return existingEntries;
 }
 
+function getUserItems(id) {
+  var existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
+
+  if (!existingEntries || existingEntries.length === 0) {
+    return [];
+  }
+
+  var userBooks = existingEntries.find(function (entry) {
+    return entry.userId === id;
+  });
+
+  if (!userBooks) {
+    return [];
+  }
+
+  return userBooks;
+}
+
 function getAmount(item) {
   var existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
 
@@ -64898,7 +65124,7 @@ function deleteItem(item) {
       existingEntries.find(function (entry) {
         return entry.userId === item.userId;
       }).books.splice(user.books.indexOf(user.books.find(function (book) {
-        return book.Id == item.bookId;
+        return book.Id === item.bookId;
       })), 1);
     } else {
       existingEntries.splice(existingEntries.indexOf(existingEntries.find(function (element) {
@@ -64910,15 +65136,30 @@ function deleteItem(item) {
   localStorage.setItem(SHOPPING_CART, JSON.stringify(existingEntries));
 }
 
+function deleteUsersCart(userId) {
+  var existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
+
+  if (!existingEntries || existingEntries.length === 0) {
+    return;
+  }
+
+  existingEntries.splice(existingEntries.indexOf(existingEntries.find(function (element) {
+    return element.userId === userId;
+  }), 1));
+  localStorage.setItem(SHOPPING_CART, JSON.stringify(existingEntries));
+}
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   add: add,
   deleteItem: deleteItem,
   getItems: getItems,
   getItemsById: getItemsById,
   getAmount: getAmount,
+  getUserItems: getUserItems,
   addToken: addToken,
   deleteToken: deleteToken,
-  getToken: getToken
+  getToken: getToken,
+  deleteUsersCart: deleteUsersCart
 });
 
 /***/ }),
@@ -65807,6 +66048,58 @@ function _deleteItem() {
 
 /***/ }),
 
+/***/ "./src/services/orderService.js":
+/*!**************************************!*\
+  !*** ./src/services/orderService.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var helpers_requestHelper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! helpers/requestHelper */ "./src/helpers/requestHelper.js");
+/* harmony import */ var constants_serviceUrls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! constants/serviceUrls */ "./src/constants/serviceUrls.js");
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
+function add(_x) {
+  return _add.apply(this, arguments);
+}
+
+function _add() {
+  _add = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(order) {
+    var result;
+    return regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return helpers_requestHelper__WEBPACK_IMPORTED_MODULE_0__["default"].post(constants_serviceUrls__WEBPACK_IMPORTED_MODULE_1__["default"].orderUrls.add, order);
+
+          case 2:
+            result = _context.sent;
+            return _context.abrupt("return", result);
+
+          case 4:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  return _add.apply(this, arguments);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  add: add
+});
+
+/***/ }),
+
 /***/ "./src/services/signInService.js":
 /*!***************************************!*\
   !*** ./src/services/signInService.js ***!
@@ -65874,7 +66167,7 @@ function getUser(id) {
 }
 
 function updateUser(user) {
-  return helpers_requestHelper__WEBPACK_IMPORTED_MODULE_0__["default"].post(constants_serviceUrls__WEBPACK_IMPORTED_MODULE_1__["default"].userUrls.updateUser, user);
+  return helpers_requestHelper__WEBPACK_IMPORTED_MODULE_0__["default"].put(constants_serviceUrls__WEBPACK_IMPORTED_MODULE_1__["default"].userUrls.updateUser, user);
 }
 
 function signOut() {
@@ -66043,9 +66336,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 var defaultState = {
-  pages: 2000,
+  pages: 1000,
   publishingYear: 2020,
-  price: 3000,
+  price: 100,
   searchNameQuery: '',
   searchAuthorQuery: '',
   categories: []
@@ -66082,12 +66375,9 @@ var filter = function filter() {
 
     case store_actions_actionTypes__WEBPACK_IMPORTED_MODULE_0__["default"].SET_CATEGORY:
       {
-        {
-          debugger;
-          return _objectSpread({}, state, {
-            categories: getNewCategories(state, action)
-          });
-        }
+        return _objectSpread({}, state, {
+          categories: getNewCategories(state, action)
+        });
       }
 
     default:
@@ -66699,6 +66989,14 @@ __webpack_require__.r(__webpack_exports__);
   name: {
     fieldName: 'Name',
     rule: 'required'
+  },
+  phone: {
+    fieldName: 'Phone',
+    rule: 'required'
+  },
+  address: {
+    fieldName: 'Address',
+    rule: 'required'
   }
 });
 
@@ -66746,6 +67044,10 @@ __webpack_require__.r(__webpack_exports__);
   },
   phone: {
     fieldName: 'Phone',
+    rule: 'required'
+  },
+  address: {
+    fieldName: 'Address',
     rule: 'required'
   },
   password: {

@@ -16,7 +16,6 @@ export default class CommentsListItem extends React.PureComponent {
 
     render() {
         const { comment, key } = this.props;
-
         return (
             <li key={key} className="comments-list-item">
                 <div>

@@ -14,7 +14,7 @@ export default class CategoryListItem extends React.Component {
 
 
     deleteCategory = () => {
-        this.props.deleteCategory(item);
+        this.props.deleteCategory(this.props.category);
     }
 
     render() {

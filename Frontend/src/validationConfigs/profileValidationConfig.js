@@ -6,5 +6,13 @@ export default {
     name: {
         fieldName: 'Name',
         rule: 'required'
+    },
+    phone: {
+        fieldName: 'Phone',
+        rule: 'required'
+    },
+    address: {
+        fieldName: 'Address',
+        rule: 'required'
     }
 };

@@ -26,5 +26,8 @@ export default {
         signIn: '/Users/Login',
         signUp: '/Users/Register',
         signOut: '/Users/Logout'
+    },
+    orderUrls: {
+        add: '/Orders/Add'
     }
 };

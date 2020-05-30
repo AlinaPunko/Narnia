@@ -1,7 +1,7 @@
 const filterType = {
     pages: 'pages',
     price: 'price',
-    publishingYear: 'publishYear'
+    publishingYear: 'publishingYear'
 };
 
 export default filterType;

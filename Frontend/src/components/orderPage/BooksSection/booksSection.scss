@@ -1,0 +1,53 @@
+.books-section {
+    margin: 0 auto;
+}
+
+.books-section-list-item {
+    display: flex;
+    justify-content: space-between;
+    min-height: 0;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.books-section-list-item__title {
+    font-size: 26px;
+}
+
+.books-section-list-item__authors,
+.books-section-list-item__categories,
+.books-section-list-item__publishing-year,
+.books-section-list-item__pages,
+.books-section-list-item__amount {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.books-section-list-item__description {
+    width: 90%;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.books-section-list-item__image {
+    width: auto;
+    height: 150px;
+}
+
+.books-section__total-price {
+    font-size: 24px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.books-section__save-button {
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: #106cc8;
+    border: none;
+}

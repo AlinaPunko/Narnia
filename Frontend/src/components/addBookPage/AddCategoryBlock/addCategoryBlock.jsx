@@ -49,12 +49,12 @@ export default class AddCategoryBlock extends React.Component {
     }
 
     deleteCategory = async (category) => {
-        this.props.deleteCategory(category);
+        this.props.categories.splice(this.props.categories.indexOf(category), 1);
     }
 
     render() {
         return (
-            <section>
+            <section className="add-category-block">
                 <h2 className="add-category-block__header">Book's categories</h2>
                 <div className="add-category-block__field">
                     <label className="add-category-block__field-title">Choose Category</label>

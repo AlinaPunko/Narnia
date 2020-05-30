@@ -38,7 +38,7 @@ export default class OrderPage extends React.Component {
             <div className="order-page">
                 <h1 className="order-page__title">Order info</h1>
                 <UserInfoSection />
-                <BooksSection />
+                <BooksSection history={this.props.history} />
             </div>
         );
     }

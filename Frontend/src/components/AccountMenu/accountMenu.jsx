@@ -24,6 +24,7 @@ export default class AccountMenu extends React.PureComponent {
 
     signOutClick = () => {
         this.context.setUserId('');
+        this.context.setRole('');
         localStorageHelper.deleteToken();
         serviceWrapper.callService(userService.signOut, null, null);
     }

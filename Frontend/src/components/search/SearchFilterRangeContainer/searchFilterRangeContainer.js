@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-
 import { setFilter } from 'store/actions';
 
 import SearchFilterRange from 'components/search/SearchFilterRange/searchFilterRange';

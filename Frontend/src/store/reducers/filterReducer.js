@@ -1,9 +1,9 @@
 import actionTypes from 'store/actions/actionTypes';
 
 const defaultState = {
-    pages: 2000,
+    pages: 1000,
     publishingYear: 2020,
-    price: 3000,
+    price: 100,
     searchNameQuery: '',
     searchAuthorQuery: '',
     categories: []
@@ -40,13 +40,10 @@ const filter = (state = defaultState, action) => {
                 };
             }
         case actionTypes.SET_CATEGORY: {
-            {
-                debugger;
-                return {
-                    ...state,
-                    categories: getNewCategories(state, action)
-                };
-            }
+            return {
+                ...state,
+                categories: getNewCategories(state, action)
+            };
         }
         default:
             return state;

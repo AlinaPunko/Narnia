@@ -55,6 +55,19 @@ function getItems() {
     return existingEntries;
 }
 
+function getUserItems(id) {
+    const existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
+    if (!existingEntries || existingEntries.length === 0) {
+        return [];
+    }
+    const userBooks = existingEntries.find((entry) => entry.userId === id);
+    if (!userBooks) {
+        return [];
+    }
+
+    return userBooks;
+}
+
 function getAmount(item) {
     const existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
     if (!existingEntries || existingEntries.length === 0) {
@@ -93,7 +106,9 @@ function deleteItem(item) {
             .books.find((book) => book.bookId === item.bookId).amount--;
     } else {
         if (user.books.length > 1) {
-            existingEntries.find((entry) => entry.userId === item.userId).books.splice(user.books.indexOf(user.books.find((book) => book.Id == item.bookId)), 1)
+            existingEntries.find((entry) => entry.userId === item.userId)
+                .books
+                .splice(user.books.indexOf(user.books.find((book) => book.Id === item.bookId)), 1);
         } else {
             existingEntries.splice(existingEntries.indexOf(existingEntries.find((element) => element.userId === item.userId), 1));
         }
@@ -102,6 +117,25 @@ function deleteItem(item) {
     localStorage.setItem(SHOPPING_CART, JSON.stringify(existingEntries));
 }
 
+function deleteUsersCart(userId) {
+    const existingEntries = JSON.parse(localStorage.getItem(SHOPPING_CART));
+    if (!existingEntries || existingEntries.length === 0) {
+        return;
+    }
+
+    existingEntries.splice(existingEntries.indexOf(existingEntries.find((element) => element.userId === userId), 1));
+    localStorage.setItem(SHOPPING_CART, JSON.stringify(existingEntries));
+}
+
 export default {
-    add, deleteItem, getItems, getItemsById, getAmount, addToken, deleteToken, getToken
+    add,
+    deleteItem,
+    getItems,
+    getItemsById,
+    getAmount,
+    getUserItems,
+    addToken,
+    deleteToken,
+    getToken,
+    deleteUsersCart
 };

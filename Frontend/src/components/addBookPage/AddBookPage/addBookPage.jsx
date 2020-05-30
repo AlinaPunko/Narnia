@@ -8,6 +8,7 @@ import bookService from 'services/bookService';
 import authorService from 'services/authorService';
 import categoryService from 'services/categoryService';
 import serviceWrapper from 'helpers/serviceWrapper';
+import redirectHelper from 'helpers/redirectHelper';
 import AddAuthorBlock from 'components/addBookPage/AddAuthorBlock/addAuthorBlock';
 import AddCategoryBlock from 'components/addBookPage/AddCategoryBlock/addCategoryBlock';
 import PhotoSelector from 'components/common/PhotoSelector/photoSelector';
@@ -167,10 +168,8 @@ export default class AddBookPage extends React.Component {
             } else {
                 result = await serviceWrapper.callService(bookService.update, bookData, this.errorFieldRef);
             }
- 
-            if (result) {
-                redirectHelper.redirectToHomePage(this.props.history);
-            }
+
+            redirectHelper.redirectToHomePage(this.props.history);
         } else {
             this.validator.showMessages();
             this.forceUpdate();

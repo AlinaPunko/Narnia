@@ -38,7 +38,6 @@ authorRoute.post('/Add', middleware.checkToken, express.json({ type: '*/*' }), a
 });
 
 authorRoute.put('/Update', middleware.checkToken, express.json({ type: '*/*' }), async (request, response) => {
-    console.log(request.body);
     try {
         let promise = new Promise((resolve, reject) => {
             authorRepository.update(request.body);

@@ -43,13 +43,11 @@ export default class CommentsSection extends React.PureComponent {
                     userName: data.userName,
                     text: data.text
                 };
-                debugger;
 
                 this.setState({
                     getNewComments: true,
                     newComment: comment
                 });
-                debugger;
             }
         });
 
@@ -64,7 +62,6 @@ export default class CommentsSection extends React.PureComponent {
                 getNewComments: false
             }
         );
-        debugger;
         this.renderComments();
     }
 

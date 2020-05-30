@@ -1,8 +1,8 @@
 const sliderValue = {
-    minPages: 2,
-    maxPages: 2000,
+    minPages: 0,
+    maxPages: 1000,
     minPrice: 0,
-    maxPrice: 3000,
+    maxPrice: 100,
     minPublishingYear: 0,
     maxPublishingYear: 2020
 };

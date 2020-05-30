@@ -7,7 +7,7 @@ function getUser(id) {
 }
 
 function updateUser(user) {
-    return api.post(serviceUrls.userUrls.updateUser, user);
+    return api.put(serviceUrls.userUrls.updateUser, user);
 }
 
 function signOut() {

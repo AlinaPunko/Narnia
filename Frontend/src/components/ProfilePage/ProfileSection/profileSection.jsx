@@ -67,7 +67,7 @@ class ProfileSection extends React.PureComponent {
     }
 
     onBirthdateChange = (e) => {
-        this.setState({ birthdate: e.target.value.slice(1, 10) });
+        this.setState({ birthdate: e.target.value.slice(0, 10) });
     }
 
     onAddressChange = (e) => {
@@ -118,7 +118,9 @@ class ProfileSection extends React.PureComponent {
     getValidationResult = () => {
         const messages = [
             this.validator.message(profileValidationConfig.email.fieldName, this.state.email, profileValidationConfig.email.rule),
-            this.validator.message(profileValidationConfig.name.fieldName, this.state.name, profileValidationConfig.name.rule)
+            this.validator.message(profileValidationConfig.name.fieldName, this.state.name, profileValidationConfig.name.rule),
+            this.validator.message(profileValidationConfig.phone.fieldName, this.state.phone, profileValidationConfig.phone.rule),
+            this.validator.message(profileValidationConfig.address.fieldName, this.state.address, profileValidationConfig.address.rule)
         ];
 
         return (
@@ -172,7 +174,7 @@ class ProfileSection extends React.PureComponent {
                                 type="email"
                                 value={this.state.email}
                                 className="profile-section__field-input"
-                                onChange={this.onEmailChange}
+                                disabled
                             />
                         </div>
                         <div className="profile-section__field">
@@ -200,6 +202,7 @@ class ProfileSection extends React.PureComponent {
                             <input
                                 name="phone"
                                 type="tel"
+                                pattern="375[0-9]{2}[0-9]{7}"
                                 value={this.state.phone}
                                 className="profile-section__field-input"
                                 onChange={this.onPhoneChange}

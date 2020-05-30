@@ -34,7 +34,7 @@ usersRoute.post('/Register', express.json({ type: '*/*' }), async (request, resp
                 id: user[0].id,
                 role: user[0].role,
                 token: token
-            })
+            }) 
         })
             .catch(() => {
                 response.statusCode = 400;
@@ -79,7 +79,8 @@ usersRoute.post('/Login', express.json({ type: '*/*' }), async (request, respons
     }
 });
 
-usersRoute.post('/Update', middleware.checkToken, express.json({ type: '*/*' }), async (request, response) => {
+usersRoute.put('/Update', middleware.checkToken, express.json({ type: '*/*' }), async (request, response) => {
+    console.log('update');
     try {
         if (request.body.birthdate === '') {
             request.body.birthdate = null;

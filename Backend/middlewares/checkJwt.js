@@ -1,5 +1,41 @@
 let jwt = require('jsonwebtoken');
 const config = require('../config.json').jwtSecret;
+const users = require('../db/mockData/users.json')
+
+let checkAdmin = (req, res, next) => {
+    let token = req.headers['x-access-token'] || req.headers['authorization']; // Express headers are auto converted to lowercase
+
+    if (token) {
+        if (token.startsWith('Bearer ')) {
+            // Remove Bearer from string
+            token = token.slice(7, token.length);
+        }
+        jwt.verify(token, config, (err, decoded) => {
+            if (err) {
+                res.status = 401;
+                return res.json({
+                    success: false,
+                    message: 'Token is not valid'
+                });
+            } else if (token === jwt.sign({ username: users[0].email }, config)) {
+                req.decoded = decoded;
+                next();
+            } else {
+                        res.status = 401;
+                return res.json({
+                    success: false,
+                    message: 'Token is not valid'
+                });
+            }
+        });
+    } else {
+        res.status = 401;
+        return res.json({
+            success: false,
+            message: 'Auth token is not supplied'
+        });
+    }
+};
 
 let checkToken = (req, res, next) => {
     let token = req.headers['x-access-token'] || req.headers['authorization']; // Express headers are auto converted to lowercase
@@ -11,6 +47,7 @@ let checkToken = (req, res, next) => {
         }
         jwt.verify(token, config, (err, decoded) => {
             if (err) {
+                res.status = 401;
                 return res.json({
                     success: false,
                     message: 'Token is not valid'
@@ -21,6 +58,7 @@ let checkToken = (req, res, next) => {
             }
         });
     } else {
+        res.status = 401;
         return res.json({
             success: false,
             message: 'Auth token is not supplied'
@@ -29,5 +67,6 @@ let checkToken = (req, res, next) => {
 };
 
 module.exports = {
-    checkToken: checkToken
+    checkToken: checkToken,
+    checkAdmin: checkAdmin
 }

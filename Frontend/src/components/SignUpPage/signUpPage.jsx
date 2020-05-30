@@ -120,6 +120,7 @@ class SignUpPage extends React.PureComponent {
             this.validator.message(signUpValidationConfig.password.fieldName, this.state.password, signUpValidationConfig.password.rule),
             this.validator.message(signUpValidationConfig.name.fieldName, this.state.name, signUpValidationConfig.name.rule),
             this.validator.message(signUpValidationConfig.phone.fieldName, this.state.phone, signUpValidationConfig.phone.rule),
+            this.validator.message(signUpValidationConfig.address.fieldName, this.state.address, signUpValidationConfig.address.rule),
             this.validator.message(
                 signUpValidationConfig.confirmedPassword.fieldName,
                 this.state.confirmedPassword,
